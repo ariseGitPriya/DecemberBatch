@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FaceBook]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="test.FaceBookLoginTest">
+        <methods>
+          <include name="openBrawser"/>
+          <include name="closeBrawser"/>
+          <include name="loginWithValidUserNameAndPassward"/>
+          <include name="loginWithInvalidUserNameAndValidPassward"/>
+          <include name="loginWithValidUserNameAndInvalidPassward"/>
+        </methods>
+      </class> <!-- test.FaceBookLoginTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+  <test thread-count="5" name="Sanity(failed)">
+    <classes>
+      <class name="test.FaceBookLoginTest">
+        <methods>
+          <include name="openBrawser"/>
+          <include name="closeBrawser"/>
+          <include name="loginWithValidUserNameAndPassward"/>
+          <include name="loginWithInvalidUserNameAndValidPassward"/>
+          <include name="loginWithValidUserNameAndInvalidPassward"/>
+        </methods>
+      </class> <!-- test.FaceBookLoginTest -->
+    </classes>
+  </test> <!-- Sanity(failed) -->
+</suite> <!-- Failed suite [FaceBook] -->
