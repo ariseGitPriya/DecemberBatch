@@ -10,5 +10,10 @@ public class GitTest {
 	{
 		WebDriver driver=Brawser.chrome("https://www.facebook.com/");
 	}
+	
+	public void test()
+	{
+		System.out.println("Test Method");
+	}
 
 }
